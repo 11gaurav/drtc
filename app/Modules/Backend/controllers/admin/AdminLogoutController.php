@@ -1,7 +1,6 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-
-class AdminLogoutController extends CI_Controller {
+namespace App\Controllers;
+class AdminLogoutController extends BaseController {
     /**
      * LogoutController constructor.
      */

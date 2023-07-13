@@ -1,7 +1,7 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
+namespace App\Controllers;
 
-class AdminDashboard extends CI_Controller
+class AdminDashboard extends BaseController
 {
 
     public function __construct()

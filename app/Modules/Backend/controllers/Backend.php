@@ -1,5 +1,6 @@
-<?php defined('BASEPATH') or exit('No direct script access allowed');
-class Backend extends CI_Controller
+<?php 
+namespace App\Controllers;
+class Backend extends BaseController
 {
     public $CI;
 

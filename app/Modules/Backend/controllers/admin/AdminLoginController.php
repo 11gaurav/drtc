@@ -1,7 +1,6 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
-
-class AdminLoginController extends CI_Controller
+namespace App\Controllers;
+class AdminLoginController extends BaseController
 {
 
     public function __construct()

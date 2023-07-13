@@ -1,7 +1,7 @@
 <?php
-defined('BASEPATH') or exit('No direct script access allowed');
+namespace App\Controllers;
 
-class Home extends CI_Controller
+class Home extends BaseController
 {
     public function __construct()
     {
